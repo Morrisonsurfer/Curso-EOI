@@ -49,24 +49,30 @@ main {
 }
 
 article{
-	visibility: hidden;
-	/*display: none;*/
+	float: left;
 	width: 33%;
-	margin-top: 5px;
+	margin-top: 0px;
+	
 }
-.arte{
+img.arte{
 	width:99%
 }
-/*div.dibujoentrada1{
+div.dibujoentrada1{
+	display: none;
 	visibility: hidden;
+	z-index: 0;
 	
-}*/
+}
 div.dibujoentrada2{
+	display: none;
 	visibility: hidden;
+	z-index: 1;
 	
 }
 div.dibujoentrada3{
+	display: none;
 	visibility: hidden;
+	z-index: 2;
 	
 }
 

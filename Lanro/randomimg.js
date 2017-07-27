@@ -16,6 +16,10 @@ $(document).ready(function(){
 	document.getElementById(y).style.visibility = "visible";
 	document.getElementById(z).style.visibility = "visible";
 	
+	document.getElementById(x).style.display = "block";
+	document.getElementById(y).style.display = "block";
+	document.getElementById(z).style.display = "block";
+	
 	//$("article").css({"display": "block", "float": "left", "width": "33%"});
 	//$("article").css({"display": "block", "float": "left", "width": "33%"});
 	//$("article").css({"display": "block", "float": "left", "width": "33%"});
