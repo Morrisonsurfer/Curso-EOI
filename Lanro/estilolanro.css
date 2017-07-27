@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+p{
+	font-weight: lighter;
+}
+body{
+	background-color: #ffffff;
+	margin-left: 8%;
+	margin-right: 8%;
+
+	
+}
+header{
+	display: block;
+	float: left;
+	width: 100%;
+	/*border-bottom-style: solid;
+	border-bottom-color: #00ff00;
+	border-bottom-width: 5px;*/
+	margin-bottom:5px;
+}
+
+div.margin{
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+#subtituloizdo{
+	float: left;
+	width: 70%;
+	
+}
+
+.enlaces{
+	float: left;
+	width: 7%;
+	text-align: center;
+}
+main {
+	text-align: center;
+}
+
+article{
+	visibility: hidden;
+	/*display: none;*/
+	width: 33%;
+	margin-top: 5px;
+}
+.arte{
+	width:99%
+}
+/*div.dibujoentrada1{
+	visibility: hidden;
+	
+}*/
+div.dibujoentrada2{
+	visibility: hidden;
+	
+}
+div.dibujoentrada3{
+	visibility: hidden;
+	
+}
+
+div.works{
+	float: left;
+	width: 20%;
+}
+img.imgworks{
+	width: 99%;
+}
+
+img.retrato{
+	padding-left: 30%;
+}
+
+div.tituloresume{
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+}
+
+section.sectionresume{
+	
+	
+	/*border: 5px solid red;*/
+	margin-bottom: 50px;
+}
+
+section.sectionresume{
+	
+	
+	/*border: 5px solid red;*/
+	margin-bottom: 50px;
+	overflow: auto;
+}
+div.interest{
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 2.5%;
+	/*border: 2px solid red;*/
+}
+div.objectives{
+	float: left;
+	width: 33%;
+	padding-left: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+section.education{
+	
+	/*border: 5px solid red;*/
+	margin-bottom: 50px;
+	width: 64%;
+	float: left;
+	margin-right: 2%;
+}
+section.awards{
+	
+	/*border: 5px solid blue;*/
+	margin-bottom: 50px;
+	width: 34%;
+	float: left;
+}
+section.skills{
+	float: left;
+	width: 64%;
+}
+div.proceso{
+	padding-left: 10%;
+	padding-bottom: 2%;
+}
+
+div.margincontacto{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+div.label{
+	float: left;
+	width: 20%;
+	padding-bottom: 2%;
+}
+div.texto{
+	float: left;
+	width: 80%;
+	padding-bottom: 2%;
+	
+}
+div.labeltextarea{
+	width:100%;
+}
+div.textarea{
+	width: 100%;
+	padding-bottom: 2%;
+}
+input {
+	border-width: 0px 0px 2px 0px;
+	border-color: black;
+}
+textarea {
+	border-color: black;
+	width: 80%;
+	height: 100px;
+}
+div.buttons{
+	float: left;
+	width: 62%;
+}
+div.redes{
+	float: left;
+}
+img.imagenproyecto{
+	width: 100%;
+	border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+img.imagenproyecto:hover{
+	opacity: 0.7;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    left: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+img.redes{
+	width: 35%;
+}
+footer{
+	position: fixed;
+	bottom: 20px;
+    right: 20px;
+    width: 5%;
+	z-index: 3;
+}
+input{
+	outline: none;
+}
+textarea{
+	outline: none;
+}
+button{
+	outline: none;
+	background-color: white;
+	border: none;
+}
+img.flecha{
+	width: 50px;
+	opacity: 0.4;	
+}
+img.flecha:hover{
+	opacity: 1;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Luis Alfonso Antoranz Ros</title>
+		<link rel="stylesheet" type="text/css" href="estilolanro.css" />
+		<!--<link rel="icon" href="imagenes/articon.png" type="image/png" sizes="16x16" />-->
+		<script src="zoomlanro.js"></script>
+	</head>
+	<body>
+		<header id="principio">
+			<div id="tituloizdo"><h1 id="titulo">Luis Alfonso Antoranz Ros</h1></div>
+			<div id="subtituloizdo"><h3 id="subtitulo">2D and 3D artist</h3></div>
+			<div id="enlacesarriba">
+				<nav id="enlaces">
+					<div class="enlaces"><a href="homelanro.html">Home</a></div>
+					<div class="enlaces"><a href="resumelanro.html">Resume</a></div>
+					<div class="enlaces"><a href="workslanro.html">Works</a></div>
+					<div class="enlaces"><a href="contactlanro.html">Contact</a></div>
+				</nav>
+			</div>
+		</header>
+		<div class="margincontacto">
+			<h3>Contact</h3>
+			<!--"http://www.inertinc.com/cursos/cursoweb2015/evaluf3/"-->
+			<form action="http://www.inertinc.com/cursos/cursoweb2015/evaluf3/" onsubmit="return validateForm()" name="formcontacto" method="post">
+			
+				<div id="nombre">
+					<div class="label"><label for="nombreusuario">Name :</label></div>
+					<div class="texto"><input type="text" placeholder="Write here your name" name="nombreusuario" id="nombreusuario" autocomplete="off" required /></div>
+				</div>
+				<div id="email">
+					<div class="label"><label for="emailusuario">E-mail :</label></div>
+					<div class="texto"><input type="email" placeholder="Write here your e-mail" name="emailusuario" id="emailusuario" autocomplete="off" required /></div>
+				</div>
+				<div id="textarea">
+					<div class="labeltextarea"><label for="comentario">Comment :</label></div>
+					<div class="textarea"><textarea name="comentario" id="comentario" required ></textarea></div>
+				</div>
+				<input type="hidden" name="emailalumno" id="emailalumno" value="tiantonioperez@gmail.com" />
+				<input type="hidden" name="plantillacorreo" id="plantillacorreo" value="El usuario %nombreusuario% se ha puesto en contacto contigo con una consulta sobre la web.<br/>	
+					La consulta es:<br/>
+					%comentario%<br/>
+					Para responder usa esta dirección de e-mail:<br/>
+					%emailusuario%" />
+				<input type="hidden" name="clavesecreta" id="clavesecreta" value="3a881f46d2" />
+				<div class="buttons">
+					<button type="submit"><img alt="Botón de envíar" src="imagenes/enviar.png"/></button>
+					<button type="reset"><img alt="Botón para borrar" src="imagenes/borrar.png"/></button>
+				</div>
+				<div class="redes">
+					<a href="https://www.facebook.com/laar3D/"><img class="redes" alt="Icono de facebook" src="imagenes/facebook.png"/></a>
+					<a href="https://www.artstation.com/artist/laar"><img class="redes" alt="Icono de arstation" src="imagenes/artstation.png"/></a>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
